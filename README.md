@@ -78,7 +78,7 @@ streamlit run app.py
 
 ## 📊 Methodology & Results
 
-The model was trained on **11,280 political news articles** from the **ISOT Fake News Dataset**.
+The model was trained on **11,280 political news articles** from the [**ISOT Fake News Dataset**](https://onlineacademiccommunity.uvic.ca/isot/2022/11/27/fake-news-detection-datasets/).
 
 - **Training Split:** 80%
 - **Test Split:** 20%
