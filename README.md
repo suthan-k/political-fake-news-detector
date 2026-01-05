@@ -1,6 +1,6 @@
 # 📰 Political Fake News Detector (Hybrid AI Agent)
 
-An **Explainable AI (XAI) Agent** designed to detect political disinformation. This system combines the precision of a fine-tuned Transformer model with the interpretability of Generative AI to provide not just a verdict, but a reasoning.
+An **Explainable Hybrid AI Agent** designed to detect political disinformation. This system combines the precision of a fine-tuned Transformer model with the interpretability of Generative AI to provide not just a verdict, but a reasoning.
 
 🔗 [**Live Demo App**](https://political-fake-news-detector-sutharsan.streamlit.app/)
 
@@ -14,7 +14,7 @@ This project implements a **Hybrid** approach to misinformation detection:
    * **Model:** `DistilBERT` (Fine-tuned on the ISOT Dataset).
    * **Task:** Binary Classification (Real vs. Fake).
    * **Performance:** ~99% Accuracy on unseen test data.
-   * **Preprocessing:** Robust "V9" pipeline removing scraper artifacts while preserving linguistic structure.
+   * **Preprocessing:** Robust pipeline removing scraper artifacts while preserving linguistic structure.
 
 2. **Explainability Layer (The Evidence):**
    * **Method:** **LIME** (Local Interpretable Model-agnostic Explanations).
