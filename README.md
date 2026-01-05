@@ -95,6 +95,16 @@ The model was trained on **11,280 political news articles** from the [**ISOT Fak
 | F1 Score | 99.78%  |
 | ROC AUC  | 1.0000  |
 
+## 🔬 Research & Analysis
+
+The full research process can be found in the [`notebooks/`](./notebooks) directory.
+
+* **EDA - [01_ISOT_EDA.ipynb](./notebooks/01_ISOT_EDA.ipynb):** Initial analysis of the dataset.
+* **Data Cleaning and Preparation - [02b_ISOT_Data_Prep_Clean.ipynb](./notebooks/02b_ISOT_Data_Prep_Clean.ipynb):** Data cleaning and preparation script for the models.
+* **Logistics Regression with TF-IDF (Basline Model) - [03b_Baseline_Model_Clean.ipynb](./notebooks/03b_Baseline_Model_Clean.ipynb):** Training script for the baseline model.
+* **DistilBERT Model (Advanced Model) - [04_DistilBERT_Finetuning.ipynb](./notebooks/04_DistilBERT_Finetuning.ipynb):** Training script for the advanced model.
+* **Model Evaluation and Comparison - [05_Model_Evaluation.ipynb](./notebooks/05_Model_Evaluation.ipynb):** Performance charts and metrics.
+* **Explainable AI (LIME Analysis) - [06_XAI_LIME_Agent.ipynb](./notebooks/06_XAI_LIME_Agent.ipynb):** Verification of model behavior using Local Interpretable Model-agnostic Explanations.
 
 ## ⚠️ Scientific Disclaimer
 
