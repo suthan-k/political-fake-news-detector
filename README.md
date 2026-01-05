@@ -4,7 +4,7 @@ An **Explainable AI (XAI) Agent** designed to detect political disinformation. T
 
 🔗 [**Live Demo App**](https://political-fake-news-detector-sutharsan.streamlit.app/)
 
----
+
 
 ## 🧠 System Architecture
 
@@ -24,7 +24,7 @@ This project implements a **Hybrid** approach to misinformation detection:
    * **Model:** **Google Gemini 2.5 Flash**.
    * **Task:** Synthesizes the prediction and LIME evidence into a human-readable narrative explanation.
 
----
+
 
 ## ✨ Key Features
 
@@ -33,7 +33,7 @@ This project implements a **Hybrid** approach to misinformation detection:
 * **Progressive Disclosure:** Simple UI for general users, with deep technical metrics hidden for experts.
 * **Leakage Prevention:** Trained on a rigorously cleaned dataset (removed headers, footers, and image metadata) to ensure the model learns semantic patterns, not metadata shortcuts.
 
----
+
 
 ## 🛠️ Installation & Local Setup
 
@@ -101,9 +101,7 @@ The model was trained on **11,280 political news articles** from the **ISOT Fake
 This tool detects **stylistic and linguistic patterns** associated with misinformation (e.g., emotional loading, lack of attribution), **not factual truth**.  
 It should be used as an **assistive tool for media literacy**, not an absolute oracle of truth.
 
----
 
-## 📜 License
 
 ## 📜 License
 
