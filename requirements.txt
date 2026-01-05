@@ -1,0 +1,7 @@
+streamlit
+torch
+transformers
+lime
+google-generativeai
+numpy
+matplotlib
