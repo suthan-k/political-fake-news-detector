@@ -81,6 +81,9 @@ def agent_preprocess_pipeline(text):
         r"^[A-Z\s\/,.\-]+\s*\(reuters\)\s*[—-]*\s*", " ", text, flags=re.IGNORECASE
     )
 
+    # --- Remove standalone Reuters headers ---
+    text = re.sub(r"^\(reuters\)\s*[—-]\s*", " ", text, flags=re.IGNORECASE)
+
     # Remove timestamp artifacts
     text = re.sub(r"\[\d+\s+est\].*$", " ", text, flags=re.IGNORECASE)
 

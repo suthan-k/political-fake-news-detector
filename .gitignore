@@ -1,18 +1,14 @@
 Ignore the Virtual Environment folder
-
 venv/
 env/
 .env
 
 Ignore Secrets (Crucial)
-
 .streamlit/secrets.toml
 
 Ignore Python cache files
-
 pycache/
 *.pyc
 
 Ignore system files
-
 .DS_Store
